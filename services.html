@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explore Akili Studio's interior architecture, interior design, execution and supervision, and selected brand identity services in Cairo.">
+<title>Interior Architecture, Interior Design & Execution | Akili Studio</title><link rel="canonical" href="https://akilis.studio/services"><meta property="og:type" content="website"><meta property="og:site_name" content="Akili Studio"><meta property="og:title" content="Interior Architecture, Interior Design & Execution | Akili Studio"><meta property="og:description" content="Explore Akili Studio's interior architecture, interior design, execution and supervision, and selected brand identity services in Cairo."><meta property="og:url" content="https://akilis.studio/services"><meta property="og:image" content="https://akilis.studio/assets/hero-poster.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Interior Architecture, Interior Design & Execution | Akili Studio"><meta name="twitter:description" content="Explore Akili Studio's interior architecture, interior design, execution and supervision, and selected brand identity services in Cairo."><meta name="twitter:image" content="https://akilis.studio/assets/hero-poster.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/caviar-dreams">
+<link rel="icon" type="image/x-portable-pixmap" href="/assets/favicon.ppm">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="typography.css?v=5">
+<style>
+/* Services page — dedicated visual system */
+.services-v2{--sv-dark:#292724;--sv-paper:#eee9e0;--sv-gold:#af863f;--sv-ink:#211f1b}
+.services-v2 .services-intro{padding:155px 0 145px;background:var(--sv-paper)}
+.services-v2 .services-intro .eyebrow{margin-bottom:28px;color:var(--sv-gold)}
+.services-v2 .services-intro .intro-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:90px;align-items:end}
+.services-v2 .services-intro h2{max-width:900px;font-size:clamp(52px,6.5vw,92px);line-height:.96}
+.services-v2 .services-intro p{max-width:460px;margin:0;color:#625c54;font:400 12px/1.9 var(--font-secondary)}
+.services-v2 .core-services{background:#fff;padding:0}
+.services-v2 .service-feature{display:grid;grid-template-columns:1fr 1fr;min-height:680px}
+.services-v2 .service-feature:nth-child(even){background:var(--sv-paper)}
+.services-v2 .service-feature .service-image{min-height:680px;background-position:center;background-size:cover;transition:transform 1.2s cubic-bezier(.22,1,.36,1),filter 1s ease}
+.services-v2 .service-feature:hover .service-image{transform:scale(1.012);filter:saturate(.92)}
+.services-v2 .service-feature:nth-child(even) .service-image{order:2}
+.services-v2 .service-feature .service-copy{display:flex;flex-direction:column;justify-content:center;padding:100px clamp(42px,7vw,110px)}
+.services-v2 .service-number{display:block;margin-bottom:32px;color:var(--sv-gold);font:500 10px/1 var(--font-secondary);letter-spacing:.2em}
+.services-v2 .service-feature h2{font-size:clamp(44px,5vw,70px);line-height:.98;margin-bottom:25px}
+.services-v2 .service-feature p{max-width:520px;margin:0;color:#625c54;font:400 12px/1.9 var(--font-secondary)}
+.services-v2 .service-feature .service-scope{margin-top:42px;padding-top:22px;border-top:1px solid #d9d3c9}
+.services-v2 .service-scope span{display:block;margin-bottom:11px;color:var(--sv-ink);font:500 9px/1 var(--font-secondary);letter-spacing:.16em;text-transform:uppercase}
+.services-v2 .service-scope p{font-size:10.5px;line-height:1.8}
+.services-v2 .approach{padding:145px 0;background:var(--sv-dark);color:#fff}
+.services-v2 .approach-head{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:end;margin-bottom:92px}
+.services-v2 .approach h2{font-size:clamp(54px,6.5vw,92px);line-height:.95}
+.services-v2 .approach-head p{max-width:420px;margin:0;color:#c3beb5;font:400 11px/1.9 var(--font-secondary)}
+.services-v2 .process{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid #55514a}
+.services-v2 .process article{position:relative;padding:27px 24px 0;border-left:1px solid #55514a;min-height:205px}
+.services-v2 .process article:last-child{border-right:1px solid #55514a}
+.services-v2 .process .node{width:7px;height:7px;border-radius:50%;background:var(--sv-gold);position:absolute;top:-4px;left:24px}
+.services-v2 .process small{color:#d3a65c;font:500 9px/1 var(--font-secondary);letter-spacing:.18em}
+.services-v2 .process h3{margin:36px 0 13px;font-size:25px}
+.services-v2 .process p{margin:0;color:#bdb7ae;font:400 10px/1.8 var(--font-secondary)}
+.services-v2 .deliver{padding:150px 0;background:#fff}
+.services-v2 .deliver-head{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:end;margin-bottom:78px}
+.services-v2 .deliver h2{font-size:clamp(52px,6vw,86px);line-height:.96}
+.services-v2 .deliver-head p{max-width:430px;margin:0;color:#625c54;font:400 11px/1.9 var(--font-secondary)}
+.services-v2 .deliver-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #d9d3c9}
+.services-v2 .deliver-item{padding:28px 25px 20px;border-left:1px solid #d9d3c9;min-height:210px}
+.services-v2 .deliver-item:last-child{border-right:1px solid #d9d3c9}
+.services-v2 .deliver-item small{color:var(--sv-gold);font:500 9px/1 var(--font-secondary);letter-spacing:.18em}
+.services-v2 .deliver-item h3{margin:42px 0 13px;font-size:25px}
+.services-v2 .deliver-item p{margin:0;color:#625c54;font:400 10px/1.8 var(--font-secondary)}
+.services-v2 .services-close{min-height:680px;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;background:linear-gradient(#0004,#0008),url('assets/villa-aurea-01.jpg') center/cover}
+.services-v2 .services-close h2{max-width:950px;margin:0 auto 32px;font-size:clamp(50px,6.5vw,94px);line-height:.96}
+.services-v2 .services-close p{margin:0 0 30px;font:400 10px/1.7 var(--font-secondary);letter-spacing:.18em;text-transform:uppercase}
+@media(max-width:760px){
+.services-v2 .services-intro{padding:92px 0}.services-v2 .services-intro .intro-grid,.services-v2 .approach-head,.services-v2 .deliver-head{grid-template-columns:1fr;gap:38px}
+.services-v2 .services-intro h2{font-size:52px}.services-v2 .services-intro p{font-size:10.5px}
+.services-v2 .service-feature{grid-template-columns:1fr;min-height:0}.services-v2 .service-feature .service-image{min-height:420px;order:0!important}.services-v2 .service-feature .service-copy{padding:75px 22px 85px}.services-v2 .service-feature h2{font-size:47px}
+.services-v2 .approach{padding:90px 0}.services-v2 .approach h2{font-size:54px}.services-v2 .approach-head{margin-bottom:60px}.services-v2 .process{grid-template-columns:1fr}.services-v2 .process article{border-right:1px solid #55514a;min-height:0;padding:26px 22px 34px}.services-v2 .process .node{left:22px}
+.services-v2 .deliver{padding:90px 0}.services-v2 .deliver h2{font-size:53px}.services-v2 .deliver-grid{grid-template-columns:1fr}.services-v2 .deliver-item{border-right:1px solid #d9d3c9;min-height:0;padding:27px 22px 34px}.services-v2 .deliver-item h3{margin-top:30px}
+.services-v2 .services-close{min-height:600px;padding:70px 18px}.services-v2 .services-close h2{font-size:52px}
+}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Akili Studio Services","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Service","name":"Interior Design","url":"https://akilis.studio/services","provider":{"@id":"https://akilis.studio/#organization"},"areaServed":{"@type":"Country","name":"Egypt"},"description":"Spatial planning, concept development, materiality and detailed interior design shaped around how the space will be used."}},{"@type":"ListItem","position":2,"item":{"@type":"Service","name":"Execution & Supervision","url":"https://akilis.studio/services","provider":{"@id":"https://akilis.studio/#organization"},"areaServed":{"@type":"Country","name":"Egypt"},"description":"Site coordination, quality control and informed decisions that protect the approved design through completion."}},{"@type":"ListItem","position":3,"item":{"@type":"Service","name":"Brand Identity","url":"https://akilis.studio/services","provider":{"@id":"https://akilis.studio/#organization"},"areaServed":{"@type":"Country","name":"Egypt"},"description":"Selected brand identities and visual systems developed to create a coherent relationship between space, experience and brand."}}]}</script></head>
+<body>
+<header class="site-header is-overlay"><div class="container nav">
+<a class="brand-logo" href="/" aria-label="Akili Studio home"><img src="assets/akili-logo.svg" alt="Akili Studio"></a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+<nav id="primary-nav" class="nav-links"><a href="/">Home</a><a href="projects">Projects</a><a class="active" href="services">Services</a><a href="about">About</a><a href="contact">Contact</a></nav>
+</div></header>
+<main class="services-v2">
+<section class="page-hero">
+<div class="container"><p class="eyebrow">Our Services</p><h1>The space,<br>considered as a whole.</h1><p>From spatial strategy and interior design to execution and selected brand identity work, we connect the decisions that shape a project — so the idea remains clear from first conversation to final detail.</p></div>
+</section>
+<section class="services-intro">
+<div class="container intro-grid"><div><p class="eyebrow">The Akili Approach</p><h2>Design is not a sequence of isolated decisions.</h2></div><p>We structure the space before we refine it. Proportion, circulation, materiality, light, function and detail are developed as one system — creating a clear design direction that can be carried through to what is built.</p></div>
+</section>
+<section class="core-services">
+<article class="service-feature">
+<div class="service-image" style="background-image:url('assets/villa-aurea-01.jpg')"></div>
+<div class="service-copy"><span class="service-number">01 / DESIGN</span><h2>Interior Architecture &amp; Interior Design</h2><p>We develop complete interior environments around the people, architecture and purpose of each project — from spatial planning and concept development to materials, lighting, furniture and detailed design. Every decision is resolved as part of one coherent system, creating a space that feels considered, personal and built to endure.</p><div class="service-scope"><span>Typical scope</span><p>Spatial planning · Concept direction · Materiality · Lighting · Furniture · Detailed design</p></div></div>
+</article>
+<article class="service-feature">
+<div class="service-image" style="background-image:url('assets/villa-aurea-01.jpg')"></div>
+<div class="service-copy"><span class="service-number">02 / REALISATION</span><h2>Execution &amp; Supervision</h2><p>We remain involved through realisation, coordinating specialists, reviewing workmanship, resolving site conditions and protecting the integrity of the approved design. The objective is straightforward: the quality, proportions and details agreed in design should carry through to what is built.</p><div class="service-scope"><span>What we protect</span><p>Design intent · Quality · Coordination · Site decisions · Programme clarity</p></div></div>
+</article>
+<article class="service-feature">
+<div class="service-image" style="background-image:url('assets/villa-aurea-01.jpg')"></div>
+<div class="service-copy"><span class="service-number">03 / BRAND</span><h2>Brand Identity</h2><p>For selected hospitality, retail and lifestyle projects, we develop visual identities that extend the physical experience into the brand itself. The same principles of clarity, proportion and intention guide the identity, creating a coherent relationship between the space, the customer experience and the brand.</p><div class="service-scope"><span>Typical scope</span><p>Brand strategy · Visual direction · Identity systems · Typography · Colour · Brand applications</p></div></div>
+</article>
+</section>
+<section class="approach">
+<div class="container">
+<div class="approach-head"><h2>One vision.<br>From concept<br>to completion.</h2><p>The work does not move through disconnected services. Each stage builds on the one before it, allowing the design to remain coherent as an idea becomes a real space.</p></div>
+<div class="process">
+<article><i class="node"></i><small>01</small><h3>Understand</h3><p>The person, property, context and requirements.</p></article>
+<article><i class="node"></i><small>02</small><h3>Define</h3><p>The spatial strategy and design direction.</p></article>
+<article><i class="node"></i><small>03</small><h3>Compose</h3><p>Architecture, materials, furniture, lighting and atmosphere.</p></article>
+<article><i class="node"></i><small>04</small><h3>Refine</h3><p>Proportion, detail, functionality and buildability.</p></article>
+<article><i class="node"></i><small>05</small><h3>Realise</h3><p>Technical development, coordination and execution.</p></article>
+</div></div>
+</section>
+<section class="deliver">
+<div class="container">
+<div class="deliver-head"><div><p class="eyebrow">The Outcome</p><h2>Clarity at every stage.</h2></div><p>Beyond individual drawings or deliverables, our role is to give clients a considered framework for the decisions that shape the project — from the first spatial move to the final site detail.</p></div>
+<div class="deliver-grid">
+<article class="deliver-item"><small>01</small><h3>Spatial Strategy</h3><p>Planning, hierarchy and project direction established around how the space needs to work.</p></article>
+<article class="deliver-item"><small>02</small><h3>Design Development</h3><p>Materials, furniture, lighting and atmosphere resolved into one coherent design language.</p></article>
+<article class="deliver-item"><small>03</small><h3>Technical Resolution</h3><p>Details and information developed to support procurement, coordination and execution.</p></article>
+<article class="deliver-item"><small>04</small><h3>Execution Oversight</h3><p>Design intent protected through site coordination, review and informed decisions.</p></article>
+</div></div>
+</section>
+<section class="services-close">
+<div><p>Begin with the brief.</p><h2>Build the right direction<br>before the details begin.</h2><p>Explore the work in our <a href="projects" style="color:inherit;text-decoration:underline;text-underline-offset:5px">selected projects</a>, then tell us about your own brief.</p><a class="button button-outline-light" href="application.html">Begin a Project</a></div>
+</section>
+</main>
+<footer><div class="container footer-inner"><a class="brand-logo" href="/" aria-label="Akili Studio home"><img src="assets/akili-logo.svg" alt="Akili Studio"></a><p>© 2026 Akili Studio · Cairo, Egypt</p><div class="footer-contacts"><a href="mailto:akilis.studios@gmail.com">Email</a><a href="tel:+201149564506">+20 114 956 4506</a><a href="https://www.instagram.com/akili.studios/" aria-label="Akili Studio on Instagram" rel="me">Instagram</a></div></div></footer>
+<script defer src="site.js?v=8"></script>
+</body></html>

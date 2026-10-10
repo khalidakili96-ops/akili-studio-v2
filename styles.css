@@ -13,3 +13,16 @@
 
 /* Portfolio placeholders — used only where final project photography has not yet been supplied. */
 .case-card-placeholder{width:100%;aspect-ratio:16/10;background:#e9e6df;display:flex;align-items:center;justify-content:center;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:rgba(45,44,42,.48)}
+
+
+/* Phase 4 — contextual internal-link system */
+.internal-link-hub{padding:clamp(56px,8vw,104px) 0;background:#eee9e0;color:#292724;border-top:1px solid rgba(41,39,36,.12)}
+.internal-link-hub .container{max-width:1240px;margin:0 auto;padding-left:clamp(22px,5vw,72px);padding-right:clamp(22px,5vw,72px)}
+.internal-link-hub .link-hub-eyebrow{margin:0 0 18px;color:#9a7338;font:500 10px/1.5 var(--font-secondary,Montserrat,sans-serif);letter-spacing:.16em;text-transform:uppercase}
+.internal-link-hub h2{max-width:760px;margin:0 0 18px;font-size:clamp(30px,4.5vw,54px);line-height:1.05;font-weight:400}
+.internal-link-hub .link-hub-intro{max-width:650px;margin:0 0 34px;color:#625c54;font:400 12px/1.9 var(--font-secondary,Montserrat,sans-serif)}
+.internal-link-hub .link-hub-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px;border-top:1px solid rgba(41,39,36,.2)}
+.internal-link-hub .link-hub-list a{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 0;border-bottom:1px solid rgba(41,39,36,.16);color:inherit;text-decoration:none;font:400 12px/1.6 var(--font-secondary,Montserrat,sans-serif);transition:color .2s ease}
+.internal-link-hub .link-hub-list a span{color:#9a7338;transition:transform .2s ease}
+.internal-link-hub .link-hub-list a:hover{color:#9a7338}.internal-link-hub .link-hub-list a:hover span{transform:translateX(4px)}
+@media(max-width:760px){.internal-link-hub .link-hub-list{grid-template-columns:1fr}.internal-link-hub .link-hub-list a{padding:16px 0}}
